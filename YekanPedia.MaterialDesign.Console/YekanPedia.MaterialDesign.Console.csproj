@@ -18,9 +18,84 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Messages.html" />
+    <Content Include="src\Content\Images\Avatar\1.jpg" />
+    <Content Include="src\Content\Images\Avatar\2.jpg" />
+    <Content Include="src\Content\Images\Avatar\3.jpg" />
+    <Content Include="src\Content\Images\Avatar\4.jpg" />
+    <Content Include="src\Content\Images\Avatar\5.jpg" />
+    <Content Include="src\Content\Images\Avatar\6.jpg" />
+    <Content Include="src\Content\Images\Avatar\7.jpg" />
+    <Content Include="src\Content\Images\Avatar\8.jpg" />
+    <Content Include="src\Content\Images\Avatar\9.jpg" />
+    <Content Include="src\Content\Styles\Public\Animate.css" />
+    <Content Include="src\app.min.1.css" />
+    <Content Include="src\app.min.2.css" />
+    <Content Include="src\autosize.min.js" />
+    <Content Include="src\bootstrap-growl.min.js" />
+    <Content Include="src\bootstrap-select.css" />
+    <Content Include="src\bootstrap-select.js" />
+    <Content Include="src\bootstrap.min.js" />
+    <Content Include="src\chosen.jquery.min.js" />
+    <Content Include="src\chosen.min.css" />
+    <Content Include="src\Content\Styles\Ltr\AppStyle1.css" />
+    <Content Include="src\Content\Styles\Ltr\AppStyle2.css" />
+    <Content Include="src\curved-line-chart.js" />
+    <Content Include="src\curvedLines.js" />
+    <Content Include="src\farbtastic.css" />
+    <Content Include="src\farbtastic.min.js" />
+    <Content Include="src\fileinput.min.js" />
+    <Content Include="src\fullcalendar.min.css" />
+    <Content Include="src\fullcalendar.min.js" />
+    <Content Include="src\functions.js" />
+    <Content Include="index.html" />
+    <Content Include="src\input-mask.min.js" />
+    <Content Include="src\jquery.bootgrid.min.css" />
+    <Content Include="src\jquery.bootgrid.min.js" />
+    <Content Include="src\jquery.bootstrap.wizard.min.js" />
+    <Content Include="src\jquery.easypiechart.min.js" />
+    <Content Include="src\jquery.flot.js" />
+    <Content Include="src\jquery.flot.orderBars.js" />
+    <Content Include="src\jquery.flot.pie.js" />
+    <Content Include="src\jquery.flot.resize.js" />
+    <Content Include="src\jquery.flot.tooltip.min.js" />
+    <Content Include="src\jquery.min.js" />
+    <Content Include="src\jquery.nicescroll.min.js" />
+    <Content Include="src\jquery.nouislider.all.min.js" />
+    <Content Include="src\jquery.nouislider.min.css" />
+    <Content Include="src\jquery.simpleWeather.min.js" />
+    <Content Include="src\jquery.sparkline.min.js" />
+    <Content Include="src\lightGallery.css" />
+    <Content Include="src\lightGallery.min.js" />
+    <Content Include="src\line-chart.js" />
+    <Content Include="src\linkedin-128.png" />
+    <Content Include="src\map.png" />
+    <Content Include="src\mate7.jpg" />
+    <Content Include="src\Content\Styles\Public\MaterialDesignIconicFont.css" />
+    <Content Include="src\mediaelement-and-player.js" />
+    <Content Include="src\mediaelement-and-player.min.js" />
+    <Content Include="src\mediaelementplayer.css" />
+    <Content Include="src\moment.min.js" />
+    <Content Include="src\note4.jpg" />
+    <Content Include="src\pie-chart.js" />
+    <Content Include="src\preview.jpg" />
+    <Content Include="src\profile-pic-2.jpg" />
+    <Content Include="src\profile-pic.jpg" />
+    <Content Include="src\summernote.css" />
+    <Content Include="src\summernote.min.js" />
+    <Content Include="src\sweet-alert.css" />
+    <Content Include="src\sweet-alert.min.js" />
+    <Content Include="src\twitter-128.png" />
+    <Content Include="src\typeahead.bundle.min.js" />
+    <Content Include="src\waves.min.js" />
+    <Content Include="src\youtube-128.png" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="src\Material-Design-Iconic-Font.woff" />
+    <Content Include="src\Roboto-Regular-webfont.woff" />
+    <Content Include="src\Content\Fonts\MaterialDesignIconic\MaterialDesignIconicFont.woff" />
+    <Content Include="src\Content\Fonts\MaterialDesignIconic\MaterialDesignIconicFont.ttf" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -29,7 +104,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\" />
+    <Folder Include="src\Content\Styles\Rtl\" />
+    <Folder Include="src\Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
