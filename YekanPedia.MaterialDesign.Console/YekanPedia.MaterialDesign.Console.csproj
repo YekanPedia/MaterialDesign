@@ -19,6 +19,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Messages.html" />
+    <Content Include="Notification.html" />
     <Content Include="src\Content\Images\Avatar\1.jpg" />
     <Content Include="src\Content\Images\Avatar\2.jpg" />
     <Content Include="src\Content\Images\Avatar\3.jpg" />
