@@ -1,6 +1,7 @@
 @font-face {
     font-family: Material-Design-Iconic-Font;
-    src: url(../Fonts/MaterialDesignIconic/MaterialDesignIconicFont.woff) format('woff'), url(../Fonts/MaterialDesignIconic/MaterialDesignIconicFont.ttf?v=2.1.0) format('truetype');
+    src: url(../../Fonts/MaterialDesignIconic/MaterialDesignIconicFont.woff) format('woff'),
+         url(../../Fonts/MaterialDesignIconic/MaterialDesignIconicFont.ttf?v=2.1.0) format('truetype');
 }
 
 .zmdi {

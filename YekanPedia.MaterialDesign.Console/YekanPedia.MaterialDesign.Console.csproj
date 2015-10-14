@@ -18,8 +18,8 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Messages.html" />
-    <Content Include="Notification.html" />
+    <Content Include="en\Messages.html" />
+    <Content Include="en\Notification.html" />
     <Content Include="src\Content\Images\Avatar\1.jpg" />
     <Content Include="src\Content\Images\Avatar\2.jpg" />
     <Content Include="src\Content\Images\Avatar\3.jpg" />
@@ -29,14 +29,24 @@
     <Content Include="src\Content\Images\Avatar\7.jpg" />
     <Content Include="src\Content\Images\Avatar\8.jpg" />
     <Content Include="src\Content\Images\Avatar\9.jpg" />
+    <Content Include="src\Content\Images\Menu\ellipsis%402x.png" />
+    <Content Include="src\Content\Images\Menu\ellipsis.png" />
+    <Content Include="src\Content\Images\Menu\menu-2%402x.png" />
+    <Content Include="src\Content\Images\Menu\menu-2.png" />
+    <Content Include="src\Content\Images\Menu\message%402x.png" />
+    <Content Include="src\Content\Images\Menu\message.png" />
+    <Content Include="src\Content\Images\Menu\notification%402x.png" />
+    <Content Include="src\Content\Images\Menu\notification.png" />
+    <Content Include="src\Content\Images\Menu\search%402x.png" />
+    <Content Include="src\Content\Images\Menu\search.png" />
+    <Content Include="src\Content\Images\Menu\task%402x.png" />
+    <Content Include="src\Content\Images\Menu\task.png" />
     <Content Include="src\Content\Styles\Public\Animate.css" />
-    <Content Include="src\app.min.1.css" />
-    <Content Include="src\app.min.2.css" />
     <Content Include="src\autosize.min.js" />
     <Content Include="src\bootstrap-growl.min.js" />
     <Content Include="src\bootstrap-select.css" />
     <Content Include="src\bootstrap-select.js" />
-    <Content Include="src\bootstrap.min.js" />
+    <Content Include="src\Scripts\Bootstrap\bootstrap.min.js" />
     <Content Include="src\chosen.jquery.min.js" />
     <Content Include="src\chosen.min.css" />
     <Content Include="src\Content\Styles\Ltr\AppStyle1.css" />
@@ -49,7 +59,7 @@
     <Content Include="src\fullcalendar.min.css" />
     <Content Include="src\fullcalendar.min.js" />
     <Content Include="src\functions.js" />
-    <Content Include="index.html" />
+    <Content Include="en\index.html" />
     <Content Include="src\input-mask.min.js" />
     <Content Include="src\jquery.bootgrid.min.css" />
     <Content Include="src\jquery.bootgrid.min.js" />
@@ -82,6 +92,7 @@
     <Content Include="src\preview.jpg" />
     <Content Include="src\profile-pic-2.jpg" />
     <Content Include="src\profile-pic.jpg" />
+    <Content Include="src\Scripts\jQuery\jquery.min.js" />
     <Content Include="src\summernote.css" />
     <Content Include="src\summernote.min.js" />
     <Content Include="src\sweet-alert.css" />
@@ -90,13 +101,18 @@
     <Content Include="src\typeahead.bundle.min.js" />
     <Content Include="src\waves.min.js" />
     <Content Include="src\youtube-128.png" />
+    <Content Include="en\Tasks.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="src\Material-Design-Iconic-Font.woff" />
-    <Content Include="src\Roboto-Regular-webfont.woff" />
     <Content Include="src\Content\Fonts\MaterialDesignIconic\MaterialDesignIconicFont.woff" />
     <Content Include="src\Content\Fonts\MaterialDesignIconic\MaterialDesignIconicFont.ttf" />
+    <Content Include="src\Content\Fonts\Roboto\Roboto-Medium-webfont.woff" />
+    <Content Include="src\Content\Fonts\Roboto\Roboto-Regular-webfont.woff" />
+    <Content Include="src\Content\Fonts\Roboto\Roboto-Medium-webfont.eot" />
+    <Content Include="src\Content\Fonts\Roboto\Roboto-Medium-webfont.ttf" />
+    <Content Include="src\Content\Fonts\Roboto\Roboto-Regular-webfont.eot" />
+    <Content Include="src\Content\Fonts\Roboto\Roboto-Regular-webfont.ttf" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -105,8 +121,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="fa\" />
     <Folder Include="src\Content\Styles\Rtl\" />
-    <Folder Include="src\Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
