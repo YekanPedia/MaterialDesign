@@ -200,3 +200,44 @@ html > body .top-menu > li > a.tm-chat {
 #footer .f-menu {
     padding-right: 0;
 }
+
+.fg-line:not(.disabled):after, .fg-line:not(.readonly):after {
+    left: inherit;
+    right: 10px;
+}
+
+.lc-block:not(.lcb-alt) .btn-login {
+    right: inherit;
+    left: -25px;
+    line-height: 50px !important;
+}
+
+.lc-block .checkbox {
+    margin: 5px -2px 0 0;
+    text-align: RIGHT;
+}
+
+    .lc-block .checkbox span {
+        vertical-align: top;
+        padding-right: 5px;
+    }
+
+.login-navigation > li:hover {
+    padding: 0 8px;
+    font-size: 12px;
+}
+
+.login-content #footer {
+    height: 30px;
+    padding-top: 0;
+}
+
+#footer {
+    color: #494848;
+    font-family: sans-serif;
+}
+
+    #footer .f-menu > li > a {
+        color: #494848;
+        font-family: 'B Yekan';
+    }

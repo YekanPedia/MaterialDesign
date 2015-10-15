@@ -21,6 +21,7 @@
     <Content Include="en\Messages.html" />
     <Content Include="en\Notification.html" />
     <Content Include="fa\indexfa.html" />
+    <Content Include="fa\login.html" />
     <Content Include="fa\Messages.html" />
     <Content Include="fa\Notification.html" />
     <Content Include="fa\Tasks.html" />
