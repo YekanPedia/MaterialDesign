@@ -10229,14 +10229,14 @@ body #content {
     border-radius: 2px;
     color: rgba(51, 51, 51, 0.69);
     background-color: rgba(255, 255, 255, 0.26);
-    background-image: url("../img/icons/search.png");
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAANlBMVEUAAAD////////////////////////////////////////////////////////////////////xY8b8AAAAEXRSTlMAH9+r9T/q6Zl9ejQEnQMCN+X/LXMAAABxSURBVCjPrZDJCsMwDAWtSF6zdf7/ZwuNDrEDzcVzejBoDdOJmkgaw8C2c1G2XuxYk1OaUfo+2PoLq9F1U5qnit5FQjwJ+S7g9HTAn4qXGd1Wn2GrULAqh1RDh8sLF8oi468yWWNY3DyQycbF00iYyxc8ngSTBTMPzQAAAABJRU5ErkJggg==') /*../../Images/Menu/search.png*/;
     background-repeat: no-repeat;
     background-position: 10px center;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     #top-search-wrap input[type="text"] {
-        background-image: url("../img/icons/search@2x.png");
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAASFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////neHiwAAAAF3RSTlMAvw2BB314+efXuJkvIsjEPzpeWzb7HF9sB0QAAADmSURBVEjH7VRJEoQgDGRTcEHc+f9Ph+BojVRFzGGqPNg3m7SkQxL2go5WcqO14bK9Fd47f8D12XDR+BMalYnvfIJO3IivJ6uUnepNcXVHzKea98+5illd+IVzLn5u5MDgzh38X5xyhDscWn8fMJ+5ATjsPST4TUlwLhEBJDyl5Ai2EIEJZzYlbSANItDhTKWkCqSmChZySmTT5LKSH47YGpzafEOuvY+AIdfeTH0HaIQBGrcB0ittRHWsEg6VLoHVg+LumuHBjo+K/CJb9kVWIAoEh6J4mKJ8rqJkJAXEkxQle/FXfABSXB02AJG4jwAAAABJRU5ErkJggg==') /*../../Images/Menu/search@2x.png*/;
         background-size: 24px 24px;
     }
 }
@@ -10370,7 +10370,7 @@ body #content {
     height: 129px;
     margin-bottom: 5px;
     width: 100%;
-    background: url(../img/profile-menu.png) no-repeat left top;
+    background: url(../../Images/Background/profile-menu.png) no-repeat left top;
     background-size: 100%;
 }
 
