@@ -178,6 +178,11 @@ html > body .top-menu > li > a.tm-chat {
         padding-right: 268px;
         padding-left: 0;
     }
+
+    .login-content.sw-toggled #footer {
+        padding-right: 0 !important;
+        padding-left: 0;
+    }
 }
 
 .actions > li > a:before, .actions > a:before {
