@@ -1,0 +1,288 @@
+﻿<html style="overflow: hidden;">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>یکان پدیا</title>
+
+    <!-- Public CSS -->
+    <link href="../src/Content/Styles/Public/Animate.css" rel="stylesheet" />
+    <link href="../src/Content/Styles/Public/MaterialDesignIconicFont.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link href="../src/Content/Styles/Ltr/AppStyle1.css" rel="stylesheet" />
+    <link href="../src/Content/Styles/Ltr/AppStyle2.css" rel="stylesheet" />
+
+    <!-- Rtl CSS -->
+    <link href="../src/Content/Styles/Rtl/AppStyle1.css" rel="stylesheet" />
+
+</head>
+<body class="">
+    <header id="header" class="">
+        <ul class="header-inner">
+            <li id="menu-trigger" data-trigger="#sidebar" class="">
+                <div class="line-wrap">
+                    <div class="line top"></div>
+                    <div class="line center"></div>
+                    <div class="line bottom"></div>
+                </div>
+            </li>
+            <li class="logo hidden-xs">
+                <a href="#">یکان پدیا</a>
+            </li>
+            <li class="pull-right">
+                <ul class="top-menu">
+                    <li id="toggle-width">
+                        <div class="toggle-switch">
+                            <input id="tw-switch" type="checkbox" hidden="hidden">
+                            <label for="tw-switch" class="ts-helper"></label>
+                        </div>
+                    </li>
+                    <li id="top-search">
+                        <a class="tm-search" href=""></a>
+                    </li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="tm-message" href="">
+                            <i class="tmn-counts">6</i>
+                        </a>
+                        <!-- Messages.html -->
+                    </li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="tm-notification" href="">
+                            <i class="tmn-counts">9</i>
+                        </a>
+                        <!-- Notification -->
+                    </li>
+                    <li class="dropdown hidden-xs">
+                        <a data-toggle="dropdown" class="tm-task" href="">
+                            <i class="tmn-counts">2</i>
+                        </a>
+                        <!-- Task -->
+                    </li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="tm-settings" href=""></a>
+                        <ul class="dropdown-menu dm-icon pull-right">
+                            <li class="hidden-xs">
+                                <a data-action="fullscreen" href=""><i class="zmdi zmdi-fullscreen"></i>تمام صفحه</a>
+                            </li>
+
+                            <li>
+                                <a href=""><i class="zmdi zmdi-settings"></i> تنظیمات کلی</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hidden-xs" id="chat-trigger" data-trigger="#chat">
+                        <a class="tm-chat" href=""></a>
+                    </li>
+                </ul>
+                <!-- Top Search Content -->
+                <div id="top-search-wrap">
+                    <input type="text">
+                    <i id="top-search-close">×</i>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <section id="main">
+        <aside id="sidebar" class="">
+            <div class="sidebar-inner c-overflow" tabindex="1">
+                <div class="profile-menu toggled">
+                    <a href="">
+                        <div class="profile-pic">
+                            <img src="/src/Content/Images/Avatar/8.jpg" alt="">
+                        </div>
+                        <div class="profile-info">
+                            محمد کریمی
+                            <i class="zmdi zmdi-arrow-drop-down"></i>
+                        </div>
+                    </a>
+                    <ul class="main-menu" style="display: block;">
+                        <li>
+                            <a href="profile.html"><i class="zmdi zmdi-account"></i> پروفایل کاربری</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="zmdi zmdi-settings"></i> تنظیمات</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="zmdi zmdi-time-restore"></i> خروج از سیستم</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="main-menu">
+                    <li class="active">
+                        <a href="indexfa.html"><i class="zmdi zmdi-home"></i> داشبورد</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <aside id="chat">
+            <ul class="tab-nav tn-justified" role="tablist" tabindex="0" style="overflow: hidden; outline: none;">
+                <li role="presentation" class="active">
+                    <a href="#friends" aria-controls="friends" role="tab" data-toggle="tab">دوستان</a>
+                </li>
+                <li role="presentation">
+                    <a href="#online" aria-controls="online" role="tab" data-toggle="tab">افراد آنلاین</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="friends">
+                    <div class="listview">
+
+                        <a class="lv-item" href="">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="lv-img-sm" src="/src/Content/Images/Avatar/1.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <div class="lv-title">ساینا قاسمی</div>
+                                    <small class="lv-small">آخرین بازدید 50 ثانیه قبل</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="lv-item" href="">
+                            <div class="media">
+                                <div class="pull-left p-relative">
+                                    <img class="lv-img-sm" src="/src/Content/Images/Avatar/3.jpg" alt="">
+                                    <i class="chat-status-online"></i>
+                                </div>
+                                <div class="media-body">
+                                    <div class="lv-title">احسان</div>
+                                    <small class="lv-small">آنلاین</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="lv-item" href="">
+                            <div class="media">
+                                <div class="pull-left p-relative">
+                                    <img class="lv-img-sm" src="/src/Content/Images/Avatar/6.jpg" alt="">
+                                    <i class="chat-status-online"></i>
+                                </div>
+                                <div class="media-body">
+                                    <div class="lv-title">امیر محمد</div>
+                                    <small class="lv-small">آنلاین</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="lv-item" href="">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="lv-img-sm" src="/src/Content/Images/Avatar/9.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <div class="lv-title">سپیده</div>
+                                    <small class="lv-small">آخرین بازدید 3 روز قبل</small>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="online">
+                    <div class="listview">
+                        <a class="lv-item" href="">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="lv-img-sm" src="/src/Content/Images/Avatar/9.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <div class="lv-title">سپیده</div>
+                                    <small class="lv-small">آخرین بازدید 3 روز قبل</small>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a class="lv-item" href="">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="lv-img-sm" src="/src/Content/Images/Avatar/1.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <div class="lv-title">ساینا قاسمی</div>
+                                    <small class="lv-small">آخرین بازدید 50 ثانیه قبل</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="lv-item" href="">
+                            <div class="media">
+                                <div class="pull-left p-relative">
+                                    <img class="lv-img-sm" src="/src/Content/Images/Avatar/3.jpg" alt="">
+                                    <i class="chat-status-online"></i>
+                                </div>
+                                <div class="media-body">
+                                    <div class="lv-title">احسان</div>
+                                    <small class="lv-small">آنلاین</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="lv-item" href="">
+                            <div class="media">
+                                <div class="pull-left p-relative">
+                                    <img class="lv-img-sm" src="/src/Content/Images/Avatar/6.jpg" alt="">
+                                    <i class="chat-status-online"></i>
+                                </div>
+                                <div class="media-body">
+                                    <div class="lv-title">امیر محمد</div>
+                                    <small class="lv-small">آنلاین</small>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <section id="content">
+            <div class="container">
+                <div class="block-header">
+                    <h2>داشبورد</h2>
+                    <ul class="actions">
+                        <li>
+                            <a href="">
+                                <i class="zmdi zmdi-trending-up"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="zmdi zmdi-check-all"></i>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="" data-toggle="dropdown">
+                                <i class="zmdi zmdi-more-vert"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-left">
+                                <li>
+                                    <a href="">بروز رسانی</a>
+                                </li>
+                                <li>
+                                    <a href="">مدیریت دانلود</a>
+                                </li>
+                                <li>
+                                    <a href="">تنظیمات</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer id="footer">
+        Copyright © 2010-2015 YekanPedia.Org
+
+        <ul class="f-menu">
+            <li><a href="">صفحه اصلی</a></li>
+            <li><a href="">داشبورد</a></li>
+            <li><a href="">گزارشات</a></li>
+            <li><a href="">پشتیبانی</a></li>
+            <li><a href="">ارتباط با ما</a></li>
+        </ul>
+    </footer>
+    <!-- Javascript Libraries -->
+    <script src="../src/Scripts/jQuery/jquery.min.js"></script>
+    <script src="../src/Scripts/Bootstrap/bootstrap.min.js"></script>
+    <script src="../src/Scripts/jQuery/niceScroll/jquery.nicescroll.min.js"></script>
+    <script src="../src/Scripts/jQuery/wave/waves.min.js"></script>
+
+    <!-- Function Libraries -->
+    <script src="../src/Scripts/functions.js"></script>
+</body>
+</html>
