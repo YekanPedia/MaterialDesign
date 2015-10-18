@@ -171,7 +171,9 @@ html > body .top-menu > li > a.tm-chat {
     }
 }
 
-
+.lcb-user {
+    background-color: #fff;
+}
 
 @media (min-width: 1199px) {
     body.sw-toggled #footer {

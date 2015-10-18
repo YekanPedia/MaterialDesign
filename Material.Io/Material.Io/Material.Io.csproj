@@ -44,6 +44,7 @@
     <Content Include="src\Content\Images\Avatar\8.jpg" />
     <Content Include="src\Content\Images\Avatar\9.jpg" />
     <Content Include="src\Content\Images\Background\profile-menu.png" />
+    <Content Include="src\Content\Images\Logo\Logo.png" />
     <Content Include="src\Content\Images\Menu\ellipsis%402x.png" />
     <Content Include="src\Content\Images\Menu\ellipsis.png" />
     <Content Include="src\Content\Images\Menu\menu-2%402x-rtl.png" />
