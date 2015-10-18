@@ -58,11 +58,16 @@
 
     <!-- Register -->
     <div class="lc-block" id="l-register">
+        <img class="lcb-user" src="/src/Content/Images/Avatar/5.jpg" alt="">
         <div class="input-group m-b-20">
+        </div>
+        <div class="input-group has-error has-feedback m-b-20">
             <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
             <div class="fg-line">
                 <input type="text" class="form-control" placeholder="نام کاربری">
             </div>
+            <small class="help-block">نام کاربری قبلا ثبت شده است</small>
+            <span class="zmdi zmdi-close form-control-feedback"></span>
         </div>
         <div class="input-group m-b-20">
             <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
@@ -70,11 +75,13 @@
                 <input type="text" class="form-control" placeholder="آدرس ایمیل">
             </div>
         </div>
-        <div class="input-group m-b-20">
+        <div class="input-group m-b-20 has-passwordStrongly has-feedback">
             <span class="input-group-addon"><i class="zmdi zmdi-lock"></i></span>
             <div class="fg-line">
-                <input type="password" class="form-control" placeholder="کلمه عبور">
+                <input type="password" class="form-control PasswordStrongly" placeholder="کلمه عبور">
             </div>
+            <small class="help-block"></small>
+            <span class="zmdi  form-control-feedback"></span>
         </div>
         <div class="clearfix"></div>
         <div class="checkbox">
@@ -97,6 +104,9 @@
 
     <!-- Forgot Password -->
     <div class="lc-block" id="l-forget-password">
+        <img class="lcb-user" src="/src/Content/Images/Avatar/5.jpg" alt="">
+        <div class="input-group m-b-20">
+        </div>
         <p class="text-right">
             برای بازیابی نام کاربری و کلمه عبور خود لطفا آدرس ایمیل خود را وارد نمایید.
             در صورت تائید آدرس ایمیل نام کاربری و کلمه عبور برای شما ارسال خواهد شد.
@@ -107,16 +117,14 @@
                 <input type="text" class="form-control" placeholder="آدرس ایمیل">
             </div>
         </div>
-
         <a href="" class="btn btn-login btn-danger btn-float"><i class="zmdi zmdi-arrow-left"></i></a>
-
         <ul class="login-navigation">
             <li data-block="#l-login" class="bgm-green">ورود</li>
             <li data-block="#l-register" class="bgm-red">ثبت نام</li>
         </ul>
     </div>
     <footer id="footer">
-        Copyright © 2010-2015 YekanPedia.Org
+        Copyright © 2010-2015 YekanPedia.org
     </footer>
     <!-- Javascript Libraries -->
     <script src="../src/Scripts/jQuery/jquery.min.js"></script>
@@ -126,5 +134,6 @@
 
     <!-- Function Libraries -->
     <script src="../src/Scripts/functions.js"></script>
+    <script src="../src/Scripts/jQuery/PasswordStrongly/PasswordStrongly.js"></script>
 </body>
 </html>
