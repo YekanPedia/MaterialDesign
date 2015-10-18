@@ -24,6 +24,7 @@
     <Content Include="fa\login.html" />
     <Content Include="fa\Messages.html" />
     <Content Include="fa\Notification.html" />
+    <Content Include="fa\profile.html" />
     <Content Include="fa\Tasks.html" />
     <Content Include="src\Content\Images\Avatar\1.jpg" />
     <Content Include="src\Content\Images\Avatar\2.jpg" />
@@ -49,6 +50,7 @@
     <Content Include="src\Content\Images\Menu\search.png" />
     <Content Include="src\Content\Images\Menu\task%402x.png" />
     <Content Include="src\Content\Images\Menu\task.png" />
+    <Content Include="src\Content\Images\User\Sir.jpg" />
     <Content Include="src\Content\Styles\Public\Animate.css" />
     <Content Include="src\autosize.min.js" />
     <Content Include="src\bootstrap-growl.min.js" />
@@ -103,6 +105,7 @@
     <Content Include="src\profile-pic.jpg" />
     <Content Include="src\Scripts\jQuery\jquery.min.js" />
     <Content Include="src\Scripts\jQuery\niceScroll\jquery.nicescroll.min.js" />
+    <Content Include="src\Scripts\jQuery\PasswordStrongly\PasswordStrongly.js" />
     <Content Include="src\summernote.css" />
     <Content Include="src\summernote.min.js" />
     <Content Include="src\sweet-alert.css" />

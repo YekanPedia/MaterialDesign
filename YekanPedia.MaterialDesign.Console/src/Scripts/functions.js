@@ -234,7 +234,7 @@ $(document).ready(function(){
     //Scrollbar for HTML(not mobile) but not for login page
     if (!$('html').hasClass('ismobile')) {
         if (!$('.login-content')[0]) {
-            scrollbar('html', 'rgba(0,0,0,0.3)', '5px');
+           // scrollbar('html', 'rgba(0,0,0,0.3)', '5px');
         }
         
         //Scrollbar Tables
@@ -424,29 +424,7 @@ $(document).ready(function(){
         });
     }
     
-    /*
-     * Date Time Picker
-     */
     
-    //Date Time Picker
-    if ($('.date-time-picker')[0]) {
-	   $('.date-time-picker').datetimepicker();
-    }
-    
-    //Time
-    if ($('.time-picker')[0]) {
-    	$('.time-picker').datetimepicker({
-    	    format: 'LT'
-    	});
-    }
-    
-    //Date
-    if ($('.date-picker')[0]) {
-    	$('.date-picker').datetimepicker({
-    	    format: 'DD/MM/YYYY'
-    	});
-    }
-
     /*
      * Form Wizard
      */
