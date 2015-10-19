@@ -35,6 +35,8 @@
     <Content Include="src\Content\Images\Avatar\7.jpg" />
     <Content Include="src\Content\Images\Avatar\8.jpg" />
     <Content Include="src\Content\Images\Avatar\9.jpg" />
+    <Content Include="src\Content\Images\Bussiness\card.jpg" />
+    <Content Include="src\Content\Images\Bussiness\mobile.jpg" />
     <Content Include="src\Content\Images\Logo\Logo.png" />
     <Content Include="src\Content\Images\Menu\ellipsis%402x.png" />
     <Content Include="src\Content\Images\Menu\ellipsis.png" />
@@ -88,8 +90,8 @@
     <Content Include="src\jquery.nouislider.min.css" />
     <Content Include="src\jquery.simpleWeather.min.js" />
     <Content Include="src\jquery.sparkline.min.js" />
-    <Content Include="src\lightGallery.css" />
-    <Content Include="src\lightGallery.min.js" />
+    <Content Include="src\Content\Styles\Public\lightGallery.css" />
+    <Content Include="src\Scripts\jQuery\lightGallery\lightGallery.min.js" />
     <Content Include="src\line-chart.js" />
     <Content Include="src\linkedin-128.png" />
     <Content Include="src\map.png" />

@@ -398,10 +398,10 @@ left: 0;
 	position: absolute;
 }
 #lg-action a#lg-prev:before {
-	content: "\e01d";
+	content: "\e01b";
 }
 #lg-action a#lg-next:after {
-	content: "\e01b";
+	content: "\e01d";
 }
 #lg-action a.cl-thumb:after {
 	font-family: 'Slide-icons';
