@@ -71,11 +71,8 @@ $(document).ready(function () {
             //Close opened sub-menus
             $('.sub-menu.toggled').not('.active').each(function () {
                 $(this).removeClass('toggled');
-                //$(this).find('ul').hide();
+                $(this).find('ul').hide();
             });
-
-
-
 
 
             if (x == '#sidebar') {
@@ -269,8 +266,8 @@ $(document).ready(function () {
     */
     $('body').on('click', '.profile-menu > a', function (e) {
         e.preventDefault();
-        //$(this).parent().toggleClass('toggled');
-        // $(this).next().slideToggle(200);
+        $(this).parent().toggleClass('toggled');
+        $(this).next().slideToggle(200);
     });
 
 

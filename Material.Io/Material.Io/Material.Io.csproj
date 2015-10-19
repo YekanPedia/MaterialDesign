@@ -44,6 +44,8 @@
     <Content Include="src\Content\Images\Avatar\8.jpg" />
     <Content Include="src\Content\Images\Avatar\9.jpg" />
     <Content Include="src\Content\Images\Background\profile-menu.png" />
+    <Content Include="src\Content\Images\Bussiness\card.jpg" />
+    <Content Include="src\Content\Images\Bussiness\mobile.jpg" />
     <Content Include="src\Content\Images\Logo\Logo.png" />
     <Content Include="src\Content\Images\Menu\ellipsis%402x.png" />
     <Content Include="src\Content\Images\Menu\ellipsis.png" />
@@ -63,6 +65,7 @@
     <Content Include="src\Content\Styles\Ltr\AppStyle1.css" />
     <Content Include="src\Content\Styles\Ltr\AppStyle2.css" />
     <Content Include="src\Content\Styles\Public\Animate.css" />
+    <Content Include="src\Content\Styles\Public\lightGallery.css" />
     <Content Include="src\Content\Styles\Public\MaterialDesignIconicFont.css" />
     <Content Include="src\Content\Styles\Rtl\AppStyle1.css" />
     <Content Include="src\curved-line-chart.js" />
@@ -88,8 +91,6 @@
     <Content Include="src\jquery.nouislider.min.css" />
     <Content Include="src\jquery.simpleWeather.min.js" />
     <Content Include="src\jquery.sparkline.min.js" />
-    <Content Include="src\lightGallery.css" />
-    <Content Include="src\lightGallery.min.js" />
     <Content Include="src\line-chart.js" />
     <Content Include="src\linkedin-128.png" />
     <Content Include="src\map.png" />
@@ -106,6 +107,7 @@
     <Content Include="src\Scripts\Bootstrap\bootstrap.min.js" />
     <Content Include="src\Scripts\functions.js" />
     <Content Include="src\Scripts\jQuery\jquery.min.js" />
+    <Content Include="src\Scripts\jQuery\lightGallery\lightGallery.min.js" />
     <Content Include="src\Scripts\jQuery\niceScroll\jquery.nicescroll.min.js" />
     <Content Include="src\Scripts\jQuery\PasswordStrongly\PasswordStrongly.js" />
     <Content Include="src\Scripts\jQuery\wave\waves.min.js" />

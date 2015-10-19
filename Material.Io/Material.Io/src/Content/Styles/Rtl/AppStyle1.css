@@ -381,3 +381,32 @@ html > body .top-menu > li > a.tm-chat {
 #profile-main .pmb-block .pmbb-header h2 {
     font-size: 17px;
 }
+
+.top-menu > li > a > .tmn-counts {
+    -moz-animation-duration: 1000ms;
+    -o-animation-duration: 1000ms;
+    -webkit-animation-duration: 1000ms;
+    animation-duration: 1000ms;
+}
+
+.t-view:after {
+    left: inherit;
+    right: -50px;
+}
+
+.t-view:before {
+    left: inherit;
+    right: -70px;
+}
+
+@media (min-width: 768px) {
+    .timeline {
+        padding-right: 100px;
+        padding-left: 50px;
+    }
+}
+
+.t-view .tv-header .actions {
+    right: inherit;
+    left: 10px;
+}
