@@ -76,7 +76,7 @@ $(document).ready(function(){
             
             
 
-	    $('.profile-menu .main-menu').hide();
+	   
             
             if (x == '#sidebar') {
                 
