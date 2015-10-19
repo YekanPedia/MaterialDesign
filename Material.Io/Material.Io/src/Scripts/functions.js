@@ -267,11 +267,11 @@ $(document).ready(function(){
     /*
     * Profile Menu
     */
-    $('body').on('click', '.profile-menu > a', function(e){
-        e.preventDefault();
-        $(this).parent().toggleClass('toggled');
-	    $(this).next().slideToggle(200);
-    });
+   // $('body').on('click', '.profile-menu > a', function(e){
+   //     e.preventDefault();
+   //     $(this).parent().toggleClass('toggled');
+	//    $(this).next().slideToggle(200);
+   // });
 
  
     //Add blue animated border and remove with condition when focus and blur
