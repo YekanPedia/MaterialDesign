@@ -410,3 +410,11 @@ html > body .top-menu > li > a.tm-chat {
     right: inherit;
     left: 10px;
 }
+
+.bgm-nily {
+    background-color: #00BCD4 !important;
+}
+
+.lc-block{
+    border-radius:7px;
+}
