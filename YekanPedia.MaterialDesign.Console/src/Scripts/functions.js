@@ -74,10 +74,7 @@ $(document).ready(function(){
         		$(this).find('ul').hide();
     	    });
             
-            
-
-	    $('.profile-menu .main-menu').hide();
-            
+    
             if (x == '#sidebar') {
                 
                 $elem = '#sidebar';
