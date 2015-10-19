@@ -71,7 +71,7 @@ $(document).ready(function(){
     	    //Close opened sub-menus
     	    $('.sub-menu.toggled').not('.active').each(function(){
         		$(this).removeClass('toggled');
-        		$(this).find('ul').hide();
+        		//$(this).find('ul').hide();
     	    });
             
             
