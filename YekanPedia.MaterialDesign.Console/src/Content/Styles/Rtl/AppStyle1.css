@@ -314,7 +314,21 @@ html > body .top-menu > li > a.tm-chat {
     #profile-main .pm-overview {
         right: 0;
         left: inherit;
+        border-left: 1px solid #eee;
+        border-right: 0;
     }
+}
+.bgm-nily {
+    background-color: #00BCD4 !important;
+}
+
+.lc-block {
+    border-radius: 7px;
+}
+
+.t-view {
+    border: 1px solid #E1E1E1;
+    border-radius: 2px;
 }
 
 .btn-float.bgm-white > i, .btn-float.bgm-gray > i {
