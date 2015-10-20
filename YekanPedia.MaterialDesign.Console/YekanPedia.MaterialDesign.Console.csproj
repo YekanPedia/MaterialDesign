@@ -129,6 +129,8 @@
     <Content Include="src\Content\Fonts\Roboto\Roboto-Medium-webfont.ttf" />
     <Content Include="src\Content\Fonts\Roboto\Roboto-Regular-webfont.eot" />
     <Content Include="src\Content\Fonts\Roboto\Roboto-Regular-webfont.ttf" />
+    <Content Include="src\Content\Fonts\BYekan\BYekan.ttf" />
+    <Content Include="src\Content\Fonts\BYekan\BYekan.otf" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

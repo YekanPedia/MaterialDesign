@@ -1,4 +1,9 @@
-﻿html {
+﻿
+@font-face {
+    font-family: 'B Yekan';
+    src: url('../../Fonts/BYekan/BYekan.ttf');
+}
+html {
     direction: rtl !important;
 }
 
@@ -329,7 +334,6 @@ html > body .top-menu > li > a.tm-chat {
 
 .t-view {
     border: 1px solid #E1E1E1;
-    border-radius: 2px;
 }
 
 .btn-float.bgm-white > i, .btn-float.bgm-gray > i {
