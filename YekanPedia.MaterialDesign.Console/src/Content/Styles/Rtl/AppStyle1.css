@@ -318,6 +318,7 @@ html > body .top-menu > li > a.tm-chat {
         border-right: 0;
     }
 }
+
 .bgm-nily {
     background-color: #00BCD4 !important;
 }
@@ -424,3 +425,27 @@ html > body .top-menu > li > a.tm-chat {
     right: inherit;
     left: 10px;
 }
+
+.t-view .tvb-stats {
+    text-align: left;
+}
+
+    .t-view .tvb-stats > li.tvbs-views {
+        border: none;
+        color: #555555;
+    }
+
+    .t-view .tvb-stats > li.tvbs-likes {
+        border: none;
+        color: #555555;
+    }
+
+    .t-view .tvb-stats > li.tvbs-comments {
+        border: none;
+        color: #555555;
+    }
+
+    .t-view .tvb-stats > li {
+        border: none;
+        padding: 5px 5px 6px;
+    }
