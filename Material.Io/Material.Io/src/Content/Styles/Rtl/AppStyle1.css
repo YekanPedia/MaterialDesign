@@ -3,6 +3,7 @@
     font-family: 'B Yekan';
     src: url('../../Fonts/BYekan/BYekan.ttf');
 }
+
 html {
     direction: rtl !important;
 }
@@ -453,3 +454,9 @@ html > body .top-menu > li > a.tm-chat {
         border: none;
         padding: 5px 5px 6px;
     }
+
+@media (max-width: 767px) {
+    .t-view {
+        border: none !important;
+    }
+}
